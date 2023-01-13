@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ZeyaSadaf/my-portfolio/static/css/main.a7a3f68b.css",
+    "main.js": "/ZeyaSadaf/my-portfolio/static/js/main.df20a454.js",
+    "static/media/pro1.PNG": "/ZeyaSadaf/my-portfolio/static/media/pro1.1bbc0842b7afc2f8ef23.PNG",
+    "static/media/td1.PNG": "/ZeyaSadaf/my-portfolio/static/media/td1.b4cb37b19a3c9fe6dc16.PNG",
+    "static/media/profile1.PNG": "/ZeyaSadaf/my-portfolio/static/media/profile1.c78972448cff9751947a.PNG",
+    "static/media/drumkit.PNG": "/ZeyaSadaf/my-portfolio/static/media/drumkit.8abbdb17f9507157fb9f.PNG",
+    "static/media/profilezee.PNG": "/ZeyaSadaf/my-portfolio/static/media/profilezee.a2c082bc1d48fd4f4cb0.PNG",
+    "static/media/Zeya_Sadaf_D.pdf": "/ZeyaSadaf/my-portfolio/static/media/Zeya_Sadaf_D.c2f8c74a4df9e4900333.pdf",
+    "static/media/singing.jpg": "/ZeyaSadaf/my-portfolio/static/media/singing.15f14be67442f6d51eb8.jpg",
+    "index.html": "/ZeyaSadaf/my-portfolio/index.html",
+    "main.a7a3f68b.css.map": "/ZeyaSadaf/my-portfolio/static/css/main.a7a3f68b.css.map",
+    "main.df20a454.js.map": "/ZeyaSadaf/my-portfolio/static/js/main.df20a454.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7a3f68b.css",
+    "static/js/main.df20a454.js"
+  ]
+}
