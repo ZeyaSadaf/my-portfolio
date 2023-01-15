@@ -3,7 +3,7 @@ import './Footer.css'
 import {FaHome, FaPhone, FaMailBulk, FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
-    let intro = "Hi! I am a front-end web developer based in Gurgaon, Haryana. I have always been fascinated in how the web works. Dived right in and I am loving it. Looking for new opportunities.";
+    let intro = "Hi! I am a web developer based in Gurgaon, Haryana. I have always been fascinated in how the web works. Dived right in and I am loving it. Looking for new opportunities.";
 
   return (
     <div className = 'footer'>

@@ -26,7 +26,7 @@ const Header = () => {
     <div className = {color? 'header header-bg':'header'}>
         <Link to = '/'>
       <div className = 'header__div'>
-        <h1 className = 'header__logo'>Portfolio.</h1>
+        <h1 className = 'header__logo'>Zeya.</h1>
         {/* <h1 className='header__logo'><img className = "header__img" src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3218ffdc-3998-4ab1-8003-97bd34e7888b/dek95ad-e82f1f93-1f6f-41d0-81aa-51f06ee65e09.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzMyMThmZmRjLTM5OTgtNGFiMS04MDAzLTk3YmQzNGU3ODg4YlwvZGVrOTVhZC1lODJmMWY5My0xZjZmLTQxZDAtODFhYS01MWYwNmVlNjVlMDkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hLu8VO0YSDcYW4okJDjHwfEamV4bIu2xWtK10paGQHM" alt = 'fairy'>
         </img></h1> */}
       </div>
@@ -60,7 +60,7 @@ const Header = () => {
         </Link>
         </li> */}
 
-        <li><a href = {Zeya_Sadaf_D} download = 'Zeya_Sadaf_D'>Resume</a></li>
+        {/* <li><a href = {Zeya_Sadaf_D} download = 'Zeya_Sadaf_D'>Resume</a></li> */}
       </ul>
       <div className = 'header__menu__hamburger' onClick = {handleClick}>
         {click? (<FaTimes size = {20} style ={{color:'white'}} />)
