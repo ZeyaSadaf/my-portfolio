@@ -44,7 +44,7 @@ const ContactForm = () => {
         <label className='contactForm__label'>Email Address</label>
         <input type = 'email' placeholder='Your email' name = 'email' required></input>
         <label className='contactForm__label'>Subject</label>
-        <input type = 'text' placeholder='Enter your name' required name = 'subject'></input>
+        <input type = 'text' placeholder='Enter the subject' required name = 'subject'></input>
         <label className='contactForm__label'>Your Message</label>
         <textarea row = '6' placeholder='Type your Message Here' name = 'message' required>
         </textarea>
