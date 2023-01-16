@@ -74,7 +74,7 @@
         left: -100%;
         z-index: -3;
         transition: 0.2s;
-    }
+    } 
     .header__menu.active{
         left : 0;
     }
@@ -88,5 +88,11 @@
     .header__menu__hamburger
     {
         display: initial;
+    }
+
+    .header__logo
+    {
+        margin-left: 10px;
+        font-size: 2.5rem;
     }
 }

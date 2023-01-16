@@ -15,9 +15,8 @@ const AboutContent = () => {
         </h1>
         <p>
         Hi! I'm Zeya, a web developer based in Gurgaon, Haryana.
-         My interest in Web Developement sparked during my University Placement year. I later started worked on 
-         learning new technologies that helped me turn ideas into websites. I can be found playing my guitar and jamming 
-         when I'm not doing website stuff. Also, I love gaming.</p>
+         My interest in Web Developement sparked during my University Placement year. I later started working on 
+         new technologies that helped me turn ideas into websites. I love to play the guitar and sing.</p>
          <Link to = '/contact'>
             <p className = 'btn'>GET IN TOUCH</p>
          </Link>
