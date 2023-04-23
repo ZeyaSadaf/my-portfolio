@@ -1,0 +1,133 @@
+hr
+{
+    border: 1px solid #E6DDC4;
+}
+.footer
+{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: #222222;
+}
+ 
+.footer__container
+{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    /* 2 items, each taking 1 frame */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap : 20px;
+}
+
+.footer__leftItem
+{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.footer_location
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer__phone
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+.footer__email
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer__rightItem
+{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.footer_RightSocial
+{
+    margin: 10px 20px 10px;
+}
+
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+p{
+    font-size: 1.2rem;
+}
+.footer_about
+{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+/* style = {{color: '#E6DDC4',026c68
+    marginRight : '2rem'}} size = {20} */
+.links{
+   color: #E6DDC4;
+   margin-right : 2rem;
+   height: 20px;
+   width: 20px;
+}
+.links:hover{
+    /* background-color: #026c68; */
+   color: #22A39F;
+}
+@media screen and (max-width:640px) {
+
+    .footer__container
+        {
+            grid-template-columns: 1fr;
+            align-items: center;
+            text-align: center;
+        }
+    .footer_about
+        {
+            margin-left: -30px;
+            line-height: 1.5;
+            padding-left: 4rem;
+            padding-right: 2rem;
+        }
+        .footer__leftItem
+        {
+            height: 90%;
+            max-width: 85%;
+            display: flex;
+            flex-direction: column;
+            margin: 20px -35px 20px 36px;
+            align-items: left;
+            text-align: center;
+        }
+        .footer_about
+        {
+            line-height: 1.5;
+            text-align: left;
+        }
+        .footer_RightSocial
+        {
+            margin: 10px 0 10px 33px;
+            text-align: left;
+        }
+
+        .links{
+            height: 30px;
+            width: 30px;
+        }
+        .footer__phone >h4
+        {
+            padding-bottom: 0;
+            align-items: center;
+        }
+
+}
